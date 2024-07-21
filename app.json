@@ -1,4 +1,19 @@
 {
   "name": "TravelVault",
-  "slug": "TravelVault"
+  "slug": "TravelVault",
+  "plugins": [
+    [
+      "expo-font"
+    ]
+  ],
+  "expo": {
+    "extra": {
+      "eas": {
+        "projectId": "59a23354-f975-4e5e-8a30-686645824251"
+      }
+    },
+    "android": {
+      "package": "com.heyashish.travelvault"
+    }
+  }
 }
